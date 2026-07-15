@@ -215,15 +215,13 @@ export default function Page() {
 
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
+      "Are you sure Baby?",
+      "Really sure? (puppy eyes)",
+      "Think again Chanda!",
+      "accept karlonaaa 🥺",
+      "Give it another thought babe!",
+      "Are you absolutely certain cutie?",
+      "This could be a mistake sweetheart!",
       "U Have a heart!💕",
       "Don't be so cold!",
       "Wouldn't you reconsider?",
@@ -247,7 +245,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
-        title: "I love you sooo Much!!!❤️, You’ve stolen my heart completely!!! 🥰💖 But itni pyaari ladki aur itni jaldi haan? Thoda aur nakhre karke mujhe tarpaao na! 🥰✨",
+        title: "I love you sooo Much Chandaa!!!❤️ !!! 🥰💖Three years of laughter, silly jokes, and endless adventures with you yet it still feels like the beginning of something magical. You’re my favorite person to annoy, my partner in crime, and the one who makes my heart do cartwheels every single day. Here’s to forever being goofy together. I love you more than pizza (and that’s saying a lot hehe)!",
         showClass: {
           popup: `
             animate__animated
@@ -274,7 +272,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
-        title: "I love you so much!! ❤️ You are my everything, my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever?",
+        title: "I love you so much!! ❤️ I can’t believe how quickly time has flown. You are my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever?",
         width: 800,
         padding: "2em",
         color: "#716add",
@@ -294,7 +292,7 @@ export default function Page() {
   useEffect(() => {
     if (noCount == 25) {
       Swal.fire({
-        title: "My love for you is endless, like the stars in the sky—shining for you every night, even if you don’t always notice. 🌟 I’ll wait patiently, proving every day that you’re my everything. ❤️ Please press ‘Yes’ and let’s make this a forever story. 🥰✨<br/>'True love never gives up; it grows stronger with time.'",
+        title: "My love for you is endless, like the stars in the sky shining for you every night, even if you don’t always notice. 🌟 I’ll wait patiently, proving every day that you’re my everything. ❤️ Please press ‘Yes’ and let’s make this a forever story. 🥰✨<br/>'True love never gives up, it grows stronger with time.'",
         width: 850,
         padding: "2em",
         color: "#716add",
@@ -345,7 +343,7 @@ export default function Page() {
               alt="Love Animation"
             />
             <h1 className="text-4xl md:text-6xl my-4 text-center">
-              Will you be my Valentine?
+              Will you be my Forever?
             </h1>
             <div className="flex flex-wrap justify-center gap-2 items-center">
               <button
@@ -401,7 +399,7 @@ const Footer = () => {
       <span role="img" aria-label="heart">
         ❤️
       </span>
-      {" "}by Ujjwal
+      {" "}by Akshit
     </a>
   );
 };
